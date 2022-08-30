@@ -1,5 +1,5 @@
 import { IStatsProps } from "types/appTypes.js";
-import chooseClassByIndex from "../../utils/chooseClassByIndex.js";
+import chooseClassByIndex from "../../utils/chooseClassByIndex";
 import css from "./Statistics.module.css";
 
 export const Statistics: React.FC<IStatsProps> = ({ title, stats }) => {
