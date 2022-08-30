@@ -1,4 +1,4 @@
-export default function chooseClassByIndex(index, css) {
+export default function chooseClassByIndex(index: number, css: any) {
   switch (index) {
     case 0:
       return css.item1;
